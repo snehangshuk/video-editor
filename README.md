@@ -9,8 +9,10 @@ The tool has the ability to cut as many unnecessary video frames as specified in
 ## Install
 Use ```pip install -i https://test.pypi.org/simple/ video-editor``` to install.
 
-## Create a YAML with the frames to cut or select
-. Sample YAML ```myrecording.yaml```
+## How To
+1. Ensure the `ffmpeg` package is installed. Follow [Download ffmpeg](https://ffmpeg.org/download.html) to install.
+2. Create a YAML file with frames to either select or delete. 
+Here is a sample YAML: ```myrecording.yaml```
 ```
 ---
 input: "input-video.mp4"
@@ -24,11 +26,11 @@ timeframe:
   - from: 30m5s   # unwanted frames
     to: end       # last frame
 ```
-. Execute
-```video-cut -p myrecording.yaml```
+3. Execute the following command:
+`video-cut -p myrecording.yaml`
+where, `-p` is the YAML with editing instruction.
+4. You should now get the `output-video.mp4` video file after the process is over.
 
-. You should now get the ```output-video.mp4``` after the process is over.
-
-## Future enhancements
-- Move from ```ffmpeg``` tool to ```ffmpeg-python``` library
+## Future Enhancements
+- Move from `ffmpeg` tool to `ffmpeg-python` library
 - Add feature to screen grab based on screen coordinates 
