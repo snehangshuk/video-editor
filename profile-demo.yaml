@@ -1,0 +1,11 @@
+---
+input: "output.mp4"
+output: "output_cut.mp4"
+cut_method: select
+timeframe:
+  - from: start
+    to: 0m:20s
+  - from: 1m:11s
+    to: 1m:18s 
+  - from: 1m:19s
+    to: end
