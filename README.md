@@ -7,7 +7,7 @@ The tool has the ability to cut as many unnecessary video frames as specified in
 - ffmpeg
 
 ## Install
-Use ```pip install -i https://test.pypi.org/simple/ video-editor``` to install.
+Use ```pip install video-editor``` to install.
 
 ## How To
 1. Ensure the `ffmpeg` package is installed. Follow [Download ffmpeg](https://ffmpeg.org/download.html) to install.
