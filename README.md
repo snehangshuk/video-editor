@@ -10,7 +10,7 @@ The tool has the ability to cut as many unnecessary video frames as specified in
 Use ```pip install video-editor``` to install.
 
 ## How To
-1. Ensure the `ffmpeg` package is installed. Follow [Download ffmpeg](https://ffmpeg.org/download.html) to install.
+1. Ensure the `ffmpeg` package is installed. Use `brew install ffmpeg` to install on MacOSX.
 2. Create a YAML file with frames to either select or delete. 
 Here is a sample YAML: ```myrecording.yaml```
 ```
