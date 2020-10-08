@@ -17,13 +17,13 @@ Here is a sample YAML: ```myrecording.yaml```
 ---
 input: "input-video.mp4"
 output: "output-video.mp4"
-cut_method: select  # use delete to delete the frames
+cut_method: select  # use 'delete' to remove unwanted frames
 timeframe:
   - from: start   # first frame
     to: 4m
-  - from: 10m11s  # unwanted frames
+  - from: 10m11s  # selected frames
     to: 15m50s
-  - from: 30m5s   # unwanted frames
+  - from: 30m5s   # selected frames
     to: end       # last frame
 ```
 3. Execute the following command:
