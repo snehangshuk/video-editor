@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='video-editor',    # This is the name of your PyPI-package.
-    version='1.0',          # Update the version number for new releases
+    version='1.1',          # Update the version number for new releases
     author="Snehangshu Karmakar",
     author_email="snehangshu@gmail.com",
     decription="Video editing tool using ffmpeg",
